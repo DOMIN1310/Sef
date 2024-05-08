@@ -1,7 +1,7 @@
 # Sef
 Secure and encrypt your .env file using new .sef file stands for "Secure Encrypted File"
 
-# ENSURE TO USE SLASH AFTER PROVIDING PATH TO A FILE!
+**ENSURE TO USE SLASH AFTER PROVIDING PATH TO A FILE!**
 
 # Usage!
 
@@ -61,3 +61,5 @@ if (len(GErr) != 0){
 //Print string of decoded data
 fmt.Println(string(data));
 ```
+
+**Keep in mind that after creating and encrypting your .env file you can simply remove it if no updates**
