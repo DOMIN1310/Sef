@@ -1,7 +1,7 @@
 # Sef
 Secure and encrypt your .env file using new .sef file stands for "Secure Encrypted File"
 
-**ENSURE TO USE SLASH AFTER FILE NAME AND CREATE THE DIRECTORY BEFORE EXECUTING!**
+**ENSURE TO ADD SLASH AFTER PATH AND TO CREATE THE DIRECTORY BEFORE EXECUTING!**
 
 # Usage!
 
