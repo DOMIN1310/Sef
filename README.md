@@ -63,3 +63,13 @@ fmt.Println(string(data));
 ```
 
 **Keep in mind that after creating and encrypting your .env file you can simply remove it if no updates**
+
+# Adding the package to golang
+
+```sh
+go mod init <main directory name>;
+go get github.com/DOMIN1310/Sef;
+#Add the package to ur main.go file and use it
+go mod tidy;
+```
+Happy coding!
