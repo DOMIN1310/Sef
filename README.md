@@ -29,7 +29,7 @@ if (len(CSErr) != 0 ){
 
 One of the most important part of creating .sef files is to get keys from this method it will simply allow the function to read and parse data from files in this case .pem and the .key
 ```go
-var keys, GKErr = Sef.GetKeys("security/"); //*keys including aes encryption key and nonce and []error the slice of errors to handle
+var keys, GKErr = Sef.GetKeys("security/"); //*keys include aes encryption key and nonce also []error the slice of errors to handle
 
 if (len(GKErr) != 0) {
   log.Fatal("Could not read security keys!");
