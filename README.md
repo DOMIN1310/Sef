@@ -20,7 +20,7 @@ if (len(GSErr) != 0 ){
 
 To create .sef file you need to provide as arguments .env path and the destiny path.
 ```go
-var values, CSErr = Sef.CreateSef("./", "security/");
+var values, CSErr = Sef.CreateSef("./", "security/"); //[]string with .env file values and []error
 
 if (len(CSErr) != 0 ){
   log.Fatal("Could not create .sef file!");
