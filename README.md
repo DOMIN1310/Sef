@@ -52,7 +52,7 @@ var sef *Sef.SefGetters = Sef.DefineSefGetters(keys, "security/"); //&SefGetters
 
 Now it's time to decode some values of the encrypted data is not named but listed so we gotta specify the index of what we want. .sef file is as sorted as .env so dont worry that, It's still better to keep your .env file but outside the deployment!
 ```go
-var data, GErr = sef.Get(1);
+var data, GErr = sef.Get(1); //[]byte of decrypted data and []error
 
 if (len(GErr) != 0){
   log.Fatal("Could not get value");
